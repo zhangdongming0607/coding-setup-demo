@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import type { Plugin } from "vite";
-import { getReply } from "./server/replies.js";
+import { getReply } from "../server/replies.js";
 
 /**
  * Vite 插件：把后端 API 路由直接挂到 Vite 开发服务器上
